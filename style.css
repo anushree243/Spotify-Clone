@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(225, 250, 225);
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 53px;
+    background-color: black;
+    color: rgb(252, 246, 238);
+}
+
+nav li {
+    padding: 0 20px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+.brand img {
+    width: 42px;
+    padding: 0 6px;
+}
+
+.container {
+    min-height: 74vh;
+    background:rgba(17, 11, 11, 0.897);
+    color: bisque;
+    margin: 6px auto;
+    display: flex;
+    width: 70%;
+    border-radius: 2%;
+    padding: 20px;
+    background-image: url("bg for spotify.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bottom {
+    position: sticky;
+    height: 85px;
+    background-color: rgb(5, 5, 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bottom input {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.btn img {
+    width: 17px;
+}
+
+.btn {
+    width: 35px;
+    margin: 5px 3px;
+    padding: 7px;
+    border-radius: 50%;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    background-color:rgb(15, 231, 134);
+}
+
+.songDibba {
+    margin-top: 34px;
+}
+.songItem {
+    background-color:cornsilk;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin: 10px 15px;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+.songList h1{
+    margin-bottom: 10px;
+}
+.songDuration {
+    padding: 0px 7px;
+}
+
+.songList img {
+    width: 25px;
+    padding: 0px 10px;
+    border-radius: 50%;
+}
+
+.songDuration button {
+    background-color:cornsilk;
+    border: 0;
+    cursor: pointer;
+}
+
+#gif {
+    width: 42px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+.songInfo {
+    color: aquamarine;
+    position: absolute;
+    left: 10vw;
+}
+
+.masterPlay {
+    background-color: rgb(15, 231, 134);
+    color: rgb(15, 231, 134);
+}
